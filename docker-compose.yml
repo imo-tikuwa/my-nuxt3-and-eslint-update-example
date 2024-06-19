@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: ./.docker/app/Dockerfile
+    volumes:
+      - .:/app:cached
+    ports:
+      - "3000:3000"
+      - "24678:24678"
+    tty: true
+    environment:
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
