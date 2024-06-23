@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "esbenp.prettier-vscode",
     "vue.volar",
     "dbaeumer.vscode-eslint",
     "redhat.vscode-yaml"
