@@ -7,7 +7,5 @@
   "[markdown]": {
     "editor.formatOnSave": false,
     "files.trimTrailingWhitespace": false
-  },
-  "prettier.configPath": ".prettierrc",
-  "prettier.ignorePath": ".prettierignore"
+  }
 }
